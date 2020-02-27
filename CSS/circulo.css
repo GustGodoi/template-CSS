@@ -40,7 +40,14 @@
 
 .fundo-amarelo{
     background-color: yellow;
+    animation: piscarAmarelo 3s infinite;
 }
-.fundo-amarelo:hover{
-    background-color: #aeb404
+
+@keyframes piscarAmarelo{
+    from{
+        background-color: yellow
+    }
+    to {
+        background-color: #aeb404
+    }
 }
