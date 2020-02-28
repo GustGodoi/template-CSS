@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Trade+Winds&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
+
+h1{
+    font-family: 'Trade Winds'
+}
+
+@font-face{
+    font-family: primeiraFonte;
+    src: url('../CSS/Fontes/Odibee_Sans/OdibeeSans-Regular.ttf')
+}
+
+h2{
+    font-family: primeiraFonte;
+}
+
+h3{
+    font-family: 'Lacquer'
+}
+
+.efeito{
+text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
+}
+
+.efeito1{
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+}
+
+.efeito2{
+    text-shadow: 0 0 15px rgba(255,255,255,.5), 0 0 10px rgba(255,255,255,.5);
+}
